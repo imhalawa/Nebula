@@ -1,0 +1,1 @@
+// refer to: https://github.com/thecodingcod/javascript-playground/blob/master/pluralsight/1.javascript-getting-started/4.%20Functions/5.%20Functions%20Scope.js
