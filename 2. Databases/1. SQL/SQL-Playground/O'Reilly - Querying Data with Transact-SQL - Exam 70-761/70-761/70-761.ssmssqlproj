@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="70-761">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="M-HALAWA-SW:EXCELSYSTEMS\mohamed.halawa">
+          <Created>2021-03-28T22:30:12.8028875+02:00</Created>
+          <Type>SQL</Type>
+          <Server>M-HALAWA-SW</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="M-HALAWA-SW:sa">
+          <Created>2021-03-21T22:30:08.8916697+02:00</Created>
+          <Type>SQL</Type>
+          <Server>M-HALAWA-SW</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="1. Select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:M-HALAWA-SW:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>M-HALAWA-SW</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>1. Select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12. Pivots.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:M-HALAWA-SW:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>M-HALAWA-SW</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12. Pivots.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2. Where.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:M-HALAWA-SW:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>M-HALAWA-SW</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>2. Where.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3. Alias.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:M-HALAWA-SW:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>M-HALAWA-SW</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>3. Alias.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4. Distinct.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:M-HALAWA-SW:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>M-HALAWA-SW</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>4. Distinct.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5. Order By.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:M-HALAWA-SW:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>M-HALAWA-SW</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>5. Order By.sql</FullPath>
+        </FileNode>
+        <FileNode Name="6. Concatenation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:M-HALAWA-SW:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>M-HALAWA-SW</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>6. Concatenation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="7. Like .. IN.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:M-HALAWA-SW:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>M-HALAWA-SW</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>7. Like .. IN.sql</FullPath>
+        </FileNode>
+        <FileNode Name="8. Union.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:M-HALAWA-SW:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>M-HALAWA-SW</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>8. Union.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

@@ -1,0 +1,355 @@
+#+Startup: indent content
+#+title: Learn Complete SQL Mastery
+#+author: Japin Li
+
+* DONE Chapter 05 - Aggregate Functions
+  SCHEDULED: <2021-08-11 Wed> DEADLINE: <2021-08-14 Sat>
+  - [X] P41 - Aggregate Functions
+  - [X] P42 - GROUP BY Clause
+  - [X] P43 - HAVING Clause
+  - [X] P44 - ROLLUP Operator
+
+* DONE Chapter 06 - Writing Complex Queries
+  DEADLINE: <2021-08-25 Wed> SCHEDULED: <2021-08-15 Sun>
+  - [X] P45 - Introduction
+  - [X] P46 - Subqueries
+  - [X] P47 - The IN Operator
+  - [X] P48 - Subqueries vs Joins
+  - [X] P49 - The ALL Keyword
+  - [X] P50 - The ANY Keyword
+  - [X] P51 - Correlated Subqueries
+  - [X] P52 - The EXISTS Operator
+  - [X] P53 - Subqueries in the SELECT Clause
+  - [X] P54 - Subqueries in the FORM Clause
+
+* DONE Chapter 07 - MySQL Functions
+  DEADLINE: <2021-09-02 Thu> SCHEDULED: <2021-08-26 Thu>
+  - [X] P55 - Numeric Functions
+  - [X] P56 - String Functions
+  - [X] P57 - Date Functions in MySQL
+  - [X] P58 - Formatting Dates and Times
+  - [X] P59 - Calculating Dates and Times
+  - [X] P60 - The IFNULL and COALESCE Functions
+  - [X] P61 - The IF Functions
+  - [X] P62 - The CASE Operator
+
+* DONE Chapter 08 - MySQL Views
+  DEADLINE: <2021-09-07 Tue> SCHEDULED: <2021-09-03 Fri>
+  - [X] P63 - Creating Views
+  - [X] P64 - Altering or Dropping Views
+  - [X] P65 - Updatable Views
+  - [X] P66 - The WITH OPTION CHECK Clause
+  - [X] P67 - Other Benefits of Views
+    
+* DONE Chapter 09 - Stored Procedures
+  DEADLINE: <2021-09-14 Tue> SCHEDULED: <2021-09-04 Sat>
+  - [X] P68 - What are Stored Procedures
+  - [X] P69 - Creating a Stored Procedure
+  - [X] P70 - Creating Procedures Using MySQLWorkbench
+  - [X] P71 - Dropping Stored Procedures
+  - [X] P72 - Parameters
+  - [X] P73 - Parameters with Default Value
+  - [X] P74 - Parameter Validation
+  - [X] P75 - Output Parameters
+  - [X] P76 - Variables
+  - [X] P77 - Functions
+  - [X] P78 - Other Conventions
+
+* DONE Chapter 10 - Triggers
+  DEADLINE: <2021-10-17 Sun> SCHEDULED: <2021-10-11 Mon>
+  - [X] P79 - Triggers
+  - [X] P80 - Viewing Triggers
+  - [X] P81 - Dropping Triggers
+  - [X] P82 - Using Triggers for Auditing
+  - [X] P83 - Events
+  - [X] P84 - Viewing, Dropping and Altering Events
+
+* DONE Chapter 11 - Transactions
+DEADLINE: <2021-11-04 Thu> SCHEDULED: <2021-10-25 Mon>
+- [X] P85 - Transactions
+- [X] P86 - Creating Transactions
+- [X] P87 - Concurrency and Locking
+- [X] P88 - Concurrency Problems
+- [X] P89 - Concurrency Isolation Levels
+- [X] P90 - READ UNCOMMITTED Isolation Level
+- [X] P91 - READ COMMITTED Isolation Level
+- [X] P92 - REPEATABLE READ Isolation Level
+- [X] P93 - SERIALIZABLE Isolation Level
+- [X] P94 - Deadlocks
+
+* DONE Chapter 12 - Data Types
+DEADLINE: <2021-11-07 Sun> SCHEDULED: <2021-10-30 Sat>
+- [X] P95 - Introduction
+- [X] P96 - String Types
+- [X] P97 - Integer Types
+- [X] P98 - Fixed-point and floating-point Types
+- [X] P99 - Boolean Types
+- [X] P100 - Enum and Set Types
+- [X] P101 - Date and Time Types
+- [X] P102 - Blob Types
+- [X] P103 - JSON Type
+
+* TODO Chapter 13 - Designing Database
+DEADLINE: <2022-01-31 Mon> SCHEDULED: <2021-12-24 Fri>
+- [X] P104 - Introduction
+- [X] P105 - Data Modelling
+- [X] P106 - Conceptual Models
+- [X] P107 - Logical Models
+- [X] P108 - Physical Models
+- [X] P109 - Primary Keys
+- [X] P110 - Foreign Keys
+- [X] P111 - Foreign Key Constraints
+- [X] P112 - Normalization
+  Seven normal forms, but we should know first three normal forms.
+  - 1st Noraml Form
+  - 2nd Normal Form
+  - 3rd Normal Form    
+- [X] P113 - 1NF - First Normal Form
+  Each cell should have *single value* and we cannot have repeated columns.
+- [X] P114 - Link Tables
+- [X] P115 - 2NF - Second Normal Form
+  Every *table* should describe *one entity*, and every column in that table
+  should describe that entity.
+- [X] P116 - 3NF - Third Normal Form
+  A column in a table should not be derived from other columns.
+- [ ] P117 - My Pragmatic Advice
+- [ ] P118 - Don't Model the Universe
+- [ ] P119 - Forward Engineering a Model
+- [ ] P120 - Synchronizing a Model with a Database
+- [ ] P121 - Reverse Engineering a Model
+- [ ] P122 - Project - Flight Booking System
+- [ ] P123 - Solution - Conceptual Model
+- [ ] P124 - Solution - Logical Model
+- [ ] P125 - Project - Video Rental Application
+- [ ] P126 - Solution - Conceptual Model
+- [ ] P127 - Solution - Logical Model
+- [ ] P128 - Creating and Dropping Database
+- [ ] P129 - Creating Tables
+- [ ] P130 - Altering Tables
+- [ ] P131 - Creating Relationships
+- [ ] P132 - Altering Primary and Foreign Key Constraints
+- [ ] P133 - Character Sets and Collations
+- [ ] P134 - Storage Engines
+
+* Notes
+
+  The IN operator is used where there has multiple records.
+  ~IN~ <-> ~= ANY~
+
+** Correlated Vs. Non-Correlated Subqueries
+
+   Correlated subqueries use the outer tables (slow).
+   Non-Correlated subqueries don't use the outer tables.
+
+** MySQL Functions
+   [[https://dev.mysql.com/doc/refman/8.0/en/numeric-functions.html][Numeric Functions]]
+
+   * =ROUND()= - Round the argument.
+     - =ROUND(5.2) -> 5=, =ROUND(5.16, 1) -> 5.2=
+   * =TRUNCATE()= - Truncate to specified number of decimal places.
+     - =TRUNCATE(1.999, 1) -> 1.9=, =TRUNCATE(122, -2) -> 100=
+   * =CEILING()= - Return the smallest integer value not less than the argument.
+     - =CEILING(1.23) -> 2=, =CEILING(-1.23) -> -1=
+   * =FLOOR()= - Return the largest integer value not greater than the argument.
+     - =FLOOR(1.23) -> 1=, =FLOOR(-1.23) -> -2=
+   * =ABS()= - Return the absolute value.
+   * =RAND()= - Return a random floating-point value. =[0, 1.0)=
+     
+** [[https://dev.mysql.com/doc/refman/8.0/en/string-functions.html][String Functions]]
+
+   * =LENGTH()= - Return the length of a string in bytes.
+   * =UPPER()= - Convert to uppercase.
+   * =LOWER()= - Return the argument in lowercase.
+   * =LTRIM()= - Remove leading spaces.
+   * =RTRIM()= - Remove trailing spaces.
+   * =TRIM()= - Remove leading and trailing spaces.
+   * =LEFT()= - Return the leftmost number of characters as specified.
+   * =RIGHT()= - Return the specified rightmost number of characters.
+   * =SUBSTRING()= - Return the substring as specified.
+   * =LOCATE()= - Return the position of the first occurrence of substring.
+   * =REPLACE()= - Replace occurrences of a specified string.
+   * =CONCATE()= - Return concatenated string.
+   * =CONCATE_WS()= - Return concatenate with separator.
+
+** [[https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html][Date Functions]]
+
+   * =NOW()= - Return the current date and time. =CURRENT_TIMESTAMP()=, =CURRENT_TIMESTAMP=.
+   * =CURDATE()= - Return the current date. =CURRENT_DATE()=, =CURRENT_DATE=.
+   * =CURTIME()= - Return the current time. =CURRENT_TIME()=, =CURRENT_TIME=.
+   * =YEAR()= - Return the year.
+   * =DAYOFMONTH()= - Return the day of the month (0-31). =DAY()=.
+   * =DAYOFYEAR()= - Return the day of the year (1-366).
+   * =DAYOFWEEK()= - Return the weekday index of the argument.
+   * =DAYNAME()= - Return the name of the weekday.
+   * =EXTRACT()= - Extract part of a date. =EXTRACT(unit FROM date)=
+
+** [[https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_date-format][Date and Time Format Functions]]
+
+   * =DATE_FORMAT()= - Format date as specified.
+     - =%Y= Year, numeric, four digits. =%y= Year numeric (two digits).
+     - =%M= Month name (January..December). =%m= Month, numeric (00..12).
+     - =%d= Day of the month, numeric (00..31). =%e= Day of the month, numeric (0..31).
+     - =%D= Day of the month with English suffix (0th, 1st, 2nd, 3rd, ...)
+     - =%W= Weekday name (Sunday..Saturday), =%w= Day of the week (0=Sunday..6=Saturday).
+   * =TIME_FORMAT()= - Format as time.
+     - =%T= Time, 24-hour (hh:mm:ss).
+     - =%H= Hour (00..23), =%i= Minutes, numeric (00..59), =%s= Seconds (00..59), =%p= AM or PM.
+
+** [[https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html][Calculating Dates and Times]]
+
+   * =DATE_ADD()= - Add time values (intervals) to a date value.
+   * =DATE_SUB()= - Subtract a time value (interval) from a date.
+   * =DATEDIFF()= - Subtract two dates.
+   * =TIME_TO_SEC()= - Return the argument converted to seconds.
+
+* Views
+- Simplify queries
+- Reduce the impact of changes
+- Restrict access to the data
+
+* [[https://www.ibm.com/docs/en/i/7.3?topic=codes-listing-sqlstate-values][SQLSTATE Values]]
+
+* Variables
+
+** User or session variables
+   =SET @myVar = 0;=
+** Local variables
+   #+begin_src
+   CREATE PROCEDURE get_risk_factor()
+   BEGIN
+       DECLARE risk_factor DECIMAL(9, 2) DEFAULT 0;
+       DECLARE invoices_total DECIMAL(9, 2);
+       DECLARE invoices_count INT;
+
+       SELECT COUNT(*), SUM(invoice_total)
+       INTO invoices_count, invoices_total
+       FROM invoices;
+
+       SET risk_factor = invoices_total / invoices_count * 5;
+
+       SELECT risk_factor;
+   END;
+   #+end_src
+
+* Triggers
+
+  * BEFORE and AFTER triggers
+  * INSERT/DELETE/UPDATE
+  * Supports FOR EACH ROW only for now.
+    In PostgreSQL, there is a FOR EACH STATEMENT option.
+  * NEW and OLD variables in triggers body.
+    NEW - the new tuple will be inserted.
+    OLD - the old tuple will be deleted.
+
+  * SHOW TRIGGERS [ LIKE 'xxx%' ];
+  * DROP TRIGGER [ IF EXISTS ] <trigger_name>;
+
+* Transactions
+ACID Properties
+- Atomicity
+- Consistency
+- Isolation
+- Durability
+** MySQL vs. PostgreSQL
+When a transaction has an error, MySQL should call ROLLBACK, otherwise, it will
+commit the successed. In PostgreSQL, however, you can call COMMIT even if you
+get an error in a transaction, PostgreSQL will do ROLLBACK for you.
+
+** Concurrency Problems
+Lost Updates
+- Dirty Reads
+  READ UNCOMMITTED
+  READ COMMITTED
+- Non-repeating Reads
+  REPEATABLE READ
+- Phantom Reads
+  SERIALIZABLE
+** Isolation Level
+|                  | Lost Updates | Dirty Reads | Non-repeating Reads | Phantom Reads |
+|------------------+--------------+-------------+---------------------+---------------|
+| READ UNCOMMITTED |              |             |                     |               |
+| READ COMMITTED   |              | Y           |                     |               |
+| REPEATABLE READ  | Y            | Y           | Y                   |               |
+| SERIALIZABLE     | Y            | Y           | Y                   | Y             |
+
+SHOW VARIABLES LIKE 'transaction_isolation';
+
+SET [SESSION | GLOBAL] TRANSACTION ISOLATION LEVEL SERIALIZABLE;
+
+* Data Types
+** String Types
+| Type       | Desc                              |
+|------------+-----------------------------------|
+| CHAR(x)    | fixed-length                      |
+| VARCHAR(x) | max: 65,535 characters (~64KB)    |
+| MEDIUMTEXT | max: 16MB                         |
+| LONGTEXT   | max: 4GB                          |
+| TINYTEXT   | max: 255 bytes, cannot be indexed |
+| TEXT       | max: 64KB, cannot be indexed      |
+
+Example (Be consistent!):
+VARCHAR(50)  for short strings
+VARCHAR(255) for medium-length strings
+
+** Numeric Types
+| Type             | Desc | Scope       |
+|------------------+------+-------------|
+| TINYINT          | 1b   | [-128, 127] |
+| UNSIGNED TINYINT | 1b   | [0, 255]    |
+| SMALLINT         | 2b   | [-32K, 32K] |
+| MEDIUMINT        | 3b   | [-8M, 8M]   |
+| INT              | 4b   | [-2B, 2B]   |
+| BIGINT           | 8b   | [-9Z, 9Z)]  |
+
+zerofill -> only impact display, not storage.
+Keep things smallest.
+
+** Date and Time Types
+** Blob Types
+** Spatial Types
+** Floating-Points
+| Type          | Desc         |
+|---------------+--------------|
+| DECIMAL(p, s) | 1 <= p <= 65 |
+| DEC           |              |
+| NUMERIC       |              |
+| FIXED         |              |
+|---------------+--------------|
+| FLOAT         | 4b           |
+| DOUBLE        | 8b           |
+
+** Booleans Types
+BOOL, BOOLEAN
+#+begin_src sql
+  UPDATE posts
+  SET is_published = 1 -- or FALSE
+
+  UPDATE posts
+  SET is_published = TRUE -- or FALSE
+#+end_src
+
+
+** Enums
+ENUM('samll', 'medium', 'large')
+SET(...)
+You should avoid use them.
+** Date and Time Types
+| Type      | Desc            |
+|-----------+-----------------|
+| DATE      | witout time     |
+| TIME      | time value      |
+| DATETIME  | 8b              |
+| TIMESTAMP | 4b (up to 2038) |
+| YEAR      | 4 digits year   |
+** Blob Types
+For large binary data.
+TINYBLOB 255b
+BLOB 65KB
+MEDIUMBLOB 16MB
+LONGBLOG 4GB
+
+*** Problems with Storing Files in a Database
+- Increased database size
+- Slower backups
+- Performance problems
+- More code to read/write images

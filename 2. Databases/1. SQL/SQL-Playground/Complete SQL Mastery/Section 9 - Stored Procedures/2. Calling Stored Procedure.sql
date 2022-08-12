@@ -1,0 +1,2 @@
+CALL get_clients();
+
