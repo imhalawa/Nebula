@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StudyPlans", "StudyPlans", "{A0B6E757-41BE-453C-8DB9-69FF964A2081}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Structure I", "Data Structure I", "{AD4B52AC-A945-4CC7-A486-8DE6F25BABDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "217_Contains_Duplicates", "217_Contains_Duplicates\217_Contains_Duplicates.csproj", "{733F9E10-E4C4-4C3B-8EAC-92321E25F5AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "53_MaximumSubArray", "53_MaximumSubArray\53_MaximumSubArray.csproj", "{81F06F98-773F-4F83-9FA6-B7E755177A14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_TwoSum", "1_TwoSum\1_TwoSum.csproj", "{F7B05CAB-19D6-4945-A869-417B84F135E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "88_MergeSortedArray", "88_MergeSortedArray\88_MergeSortedArray.csproj", "{B8B9BC43-46D9-4262-B941-0A17D34749B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{733F9E10-E4C4-4C3B-8EAC-92321E25F5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733F9E10-E4C4-4C3B-8EAC-92321E25F5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733F9E10-E4C4-4C3B-8EAC-92321E25F5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733F9E10-E4C4-4C3B-8EAC-92321E25F5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F06F98-773F-4F83-9FA6-B7E755177A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F06F98-773F-4F83-9FA6-B7E755177A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F06F98-773F-4F83-9FA6-B7E755177A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F06F98-773F-4F83-9FA6-B7E755177A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B05CAB-19D6-4945-A869-417B84F135E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B05CAB-19D6-4945-A869-417B84F135E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B05CAB-19D6-4945-A869-417B84F135E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B05CAB-19D6-4945-A869-417B84F135E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B9BC43-46D9-4262-B941-0A17D34749B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B9BC43-46D9-4262-B941-0A17D34749B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B9BC43-46D9-4262-B941-0A17D34749B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B9BC43-46D9-4262-B941-0A17D34749B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD4B52AC-A945-4CC7-A486-8DE6F25BABDA} = {A0B6E757-41BE-453C-8DB9-69FF964A2081}
+		{733F9E10-E4C4-4C3B-8EAC-92321E25F5AD} = {AD4B52AC-A945-4CC7-A486-8DE6F25BABDA}
+		{81F06F98-773F-4F83-9FA6-B7E755177A14} = {AD4B52AC-A945-4CC7-A486-8DE6F25BABDA}
+		{F7B05CAB-19D6-4945-A869-417B84F135E0} = {AD4B52AC-A945-4CC7-A486-8DE6F25BABDA}
+		{B8B9BC43-46D9-4262-B941-0A17D34749B7} = {AD4B52AC-A945-4CC7-A486-8DE6F25BABDA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5B65EC6-871A-466D-A197-98311362FD04}
+	EndGlobalSection
+EndGlobal
