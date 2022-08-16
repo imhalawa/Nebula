@@ -1,0 +1,29 @@
+{
+	// Use IntelliSense to find out which attributes exist for C# debugging
+	// Use hover for the description of the existing attributes
+	// For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Launch client",
+			"request": "launch",
+			"mainClass": "Core.Queue.client",
+			"projectName": "1.3_e6f8f0c7"
+		},
+		{
+			"type": "java",
+			"name": "Launch App",
+			"request": "launch",
+			"mainClass": "app.App",
+			"projectName": "1.3_e6f8f0c7"
+		},
+		{
+			"type": "java",
+			"name": "Launch client",
+			"request": "launch",
+			"mainClass": "Core.LinkedList.client",
+			"projectName": "1.3_e6f8f0c7"
+		}
+	]
+}
